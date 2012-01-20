@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		503A6BF314C90BB2000BEAAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503A6BF214C90BB2000BEAAF /* main.cpp */; };
+		503A6BF514C90BB2000BEAAF /* _2_Xcode4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 503A6BF414C90BB2000BEAAF /* _2_Xcode4.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		503A6BEC14C90BB2000BEAAF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				503A6BF514C90BB2000BEAAF /* _2_Xcode4.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		503A6BEE14C90BB2000BEAAF /* _2_Xcode4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = _2_Xcode4; sourceTree = BUILT_PRODUCTS_DIR; };
+		503A6BF214C90BB2000BEAAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		503A6BF414C90BB2000BEAAF /* _2_Xcode4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _2_Xcode4.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503A6BEB14C90BB2000BEAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503A6BE314C90BB2000BEAAF = {
+			isa = PBXGroup;
+			children = (
+				503A6BF114C90BB2000BEAAF /* _2_Xcode4 */,
+				503A6BEF14C90BB2000BEAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		503A6BEF14C90BB2000BEAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503A6BEE14C90BB2000BEAAF /* _2_Xcode4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503A6BF114C90BB2000BEAAF /* _2_Xcode4 */ = {
+			isa = PBXGroup;
+			children = (
+				503A6BF214C90BB2000BEAAF /* main.cpp */,
+				503A6BF414C90BB2000BEAAF /* _2_Xcode4.1 */,
+			);
+			path = _2_Xcode4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503A6BED14C90BB2000BEAAF /* _2_Xcode4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503A6BF814C90BB2000BEAAF /* Build configuration list for PBXNativeTarget "_2_Xcode4" */;
+			buildPhases = (
+				503A6BEA14C90BB2000BEAAF /* Sources */,
+				503A6BEB14C90BB2000BEAAF /* Frameworks */,
+				503A6BEC14C90BB2000BEAAF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = _2_Xcode4;
+			productName = _2_Xcode4;
+			productReference = 503A6BEE14C90BB2000BEAAF /* _2_Xcode4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503A6BE514C90BB2000BEAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Northeaster University";
+			};
+			buildConfigurationList = 503A6BE814C90BB2000BEAAF /* Build configuration list for PBXProject "_2_Xcode4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 503A6BE314C90BB2000BEAAF;
+			productRefGroup = 503A6BEF14C90BB2000BEAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503A6BED14C90BB2000BEAAF /* _2_Xcode4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503A6BEA14C90BB2000BEAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503A6BF314C90BB2000BEAAF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		503A6BF614C90BB2000BEAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		503A6BF714C90BB2000BEAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		503A6BF914C90BB2000BEAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		503A6BFA14C90BB2000BEAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503A6BE814C90BB2000BEAAF /* Build configuration list for PBXProject "_2_Xcode4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503A6BF614C90BB2000BEAAF /* Debug */,
+				503A6BF714C90BB2000BEAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503A6BF814C90BB2000BEAAF /* Build configuration list for PBXNativeTarget "_2_Xcode4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503A6BF914C90BB2000BEAAF /* Debug */,
+				503A6BFA14C90BB2000BEAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503A6BE514C90BB2000BEAAF /* Project object */;
+}
