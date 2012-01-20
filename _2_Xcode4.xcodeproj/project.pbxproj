@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		503A6BF314C90BB2000BEAAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503A6BF214C90BB2000BEAAF /* main.cpp */; };
 		503A6BF514C90BB2000BEAAF /* _2_Xcode4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 503A6BF414C90BB2000BEAAF /* _2_Xcode4.1 */; };
+		503A6BFF14C90C23000BEAAF /* libopencv_core.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A6BFC14C90C23000BEAAF /* libopencv_core.2.3.1.dylib */; };
+		503A6C0014C90C23000BEAAF /* libopencv_highgui.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A6BFD14C90C23000BEAAF /* libopencv_highgui.2.3.1.dylib */; };
+		503A6C0114C90C23000BEAAF /* libopencv_ml.2.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A6BFE14C90C23000BEAAF /* libopencv_ml.2.3.1.dylib */; };
+		503A6C0714C90C7C000BEAAF /* colorReduce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503A6C0514C90C7C000BEAAF /* colorReduce.cpp */; };
+		503A6C0814C90C7C000BEAAF /* salt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503A6C0614C90C7C000BEAAF /* salt.cpp */; };
+		503A6C0A14C90C90000BEAAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503A6C0914C90C90000BEAAF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +31,14 @@
 
 /* Begin PBXFileReference section */
 		503A6BEE14C90BB2000BEAAF /* _2_Xcode4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = _2_Xcode4; sourceTree = BUILT_PRODUCTS_DIR; };
-		503A6BF214C90BB2000BEAAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		503A6BF414C90BB2000BEAAF /* _2_Xcode4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _2_Xcode4.1; sourceTree = "<group>"; };
+		503A6BFC14C90C23000BEAAF /* libopencv_core.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.3.1.dylib; path = ../../../../../opt/local/lib/libopencv_core.2.3.1.dylib; sourceTree = "<group>"; };
+		503A6BFD14C90C23000BEAAF /* libopencv_highgui.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.3.1.dylib; path = ../../../../../opt/local/lib/libopencv_highgui.2.3.1.dylib; sourceTree = "<group>"; };
+		503A6BFE14C90C23000BEAAF /* libopencv_ml.2.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.2.3.1.dylib; path = ../../../../../opt/local/lib/libopencv_ml.2.3.1.dylib; sourceTree = "<group>"; };
+		503A6C0414C90C67000BEAAF /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		503A6C0514C90C7C000BEAAF /* colorReduce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorReduce.cpp; sourceTree = "<group>"; };
+		503A6C0614C90C7C000BEAAF /* salt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = salt.cpp; sourceTree = "<group>"; };
+		503A6C0914C90C90000BEAAF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503A6BFF14C90C23000BEAAF /* libopencv_core.2.3.1.dylib in Frameworks */,
+				503A6C0014C90C23000BEAAF /* libopencv_highgui.2.3.1.dylib in Frameworks */,
+				503A6C0114C90C23000BEAAF /* libopencv_ml.2.3.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +58,8 @@
 		503A6BE314C90BB2000BEAAF = {
 			isa = PBXGroup;
 			children = (
+				503A6C0314C90C4F000BEAAF /* Header */,
+				503A6BFB14C90BDA000BEAAF /* OpenCV_Frameworks */,
 				503A6BF114C90BB2000BEAAF /* _2_Xcode4 */,
 				503A6BEF14C90BB2000BEAAF /* Products */,
 			);
@@ -60,10 +76,30 @@
 		503A6BF114C90BB2000BEAAF /* _2_Xcode4 */ = {
 			isa = PBXGroup;
 			children = (
-				503A6BF214C90BB2000BEAAF /* main.cpp */,
+				503A6C0914C90C90000BEAAF /* main.cpp */,
+				503A6C0514C90C7C000BEAAF /* colorReduce.cpp */,
+				503A6C0614C90C7C000BEAAF /* salt.cpp */,
 				503A6BF414C90BB2000BEAAF /* _2_Xcode4.1 */,
 			);
 			path = _2_Xcode4;
+			sourceTree = "<group>";
+		};
+		503A6BFB14C90BDA000BEAAF /* OpenCV_Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503A6BFC14C90C23000BEAAF /* libopencv_core.2.3.1.dylib */,
+				503A6BFD14C90C23000BEAAF /* libopencv_highgui.2.3.1.dylib */,
+				503A6BFE14C90C23000BEAAF /* libopencv_ml.2.3.1.dylib */,
+			);
+			name = OpenCV_Frameworks;
+			sourceTree = "<group>";
+		};
+		503A6C0314C90C4F000BEAAF /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				503A6C0414C90C67000BEAAF /* utility.h */,
+			);
+			name = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				503A6BF314C90BB2000BEAAF /* main.cpp in Sources */,
+				503A6C0714C90C7C000BEAAF /* colorReduce.cpp in Sources */,
+				503A6C0814C90C7C000BEAAF /* salt.cpp in Sources */,
+				503A6C0A14C90C90000BEAAF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +209,11 @@
 		503A6BF914C90BB2000BEAAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -178,6 +221,11 @@
 		503A6BFA14C90BB2000BEAAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
